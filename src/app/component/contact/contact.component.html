@@ -1,0 +1,14 @@
+<div [ngClass]="setClass()">
+    <address class="address">
+        <span class="name">{{ contact.name }}</span><br>
+        {{ contact.address.street }}<br>
+        {{ contact.address.city }}<br>
+        {{ contact.address.zipcode }}<br>
+        {{ contact.phone }}<br>
+        {{ contact.email }}
+    </address>
+    <ul class="m-0 p-0">
+        <li class="fas fa-cog mr-2" (click)="onContactUpdate(contact)"></li>
+        <li class="fas fa-trash mr-2" (click)="onContactDelete(contact)"></li>
+    </ul>
+</div>

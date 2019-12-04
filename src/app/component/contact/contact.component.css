@@ -1,0 +1,27 @@
+.contact {
+    border: 1px solid #eee;
+    font-size: 12px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.address {
+    margin-bottom: 0;
+}
+
+.address .name {
+    font-size: 14px;
+}
+
+.address .name {
+    color: #333;
+    font-weight: 600;
+}
+
+.fa-wrench, .fa-cog, .fa-trash {
+    color: #ccc;
+}
+
+.fa-wrench:hover, .fa-cog:hover, .fa-trash:hover {
+    cursor: pointer;
+}

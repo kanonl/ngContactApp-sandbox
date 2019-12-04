@@ -26,7 +26,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/62f90f27d1.js",
+              "src/assets/jquery-3.4.1.slim.min.js",
+              "src/assets/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -120,6 +124,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "contact-app"
 }
